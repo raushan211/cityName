@@ -12,7 +12,7 @@ func main() {
 	records := readCsvFile("./read.csv")
 
 	city := getCity(records, input)
-	fmt.Println(city)
+	fmt.Println("the city is: ", city)
 
 }
 
